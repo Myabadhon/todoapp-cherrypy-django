@@ -1,9 +1,5 @@
-import sys
 import cherrypy
 from mako.template import Template
-from PyQt5.QtWebEngineWidgets import *
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import *
 
 class Todo(object):
     @cherrypy.expose
